@@ -77,7 +77,7 @@ pizza_configurator.add_ingredient(cheese)
 ---
 ### Adapter
 
-
+The Adapter pattern is used to make the Truck delivery compatible with the existing PizzaConfigurator and DeliveryStrategy interface. It allows to introduce the new type of delivery method without modifyng existing code.
 
 ### Main
 ```
